@@ -12,10 +12,10 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackQueryHandler
 
 # Telegram Bot Token
-TOKEN = '6229406413:AAGkHXGCMoXsTRRM-ILNgrZA6jgYmzZelcE'
+TOKEN = 'TYPE_YOUR_TOKEN_HERE'
 
 # Spoonacular API Key
-API_KEY = '780d0ac1e9ad48ae8921e4ed80444315'
+API_KEY = "TYPE_YOUR_API_KEY_HERE"
 
 RANDOM_RECIPE_URL = f'https://api.spoonacular.com/recipes/random?apiKey={API_KEY}'
 RECIPE_BY_INGREDIENTS_URL = f'https://api.spoonacular.com/recipes/findByIngredients?apiKey={API_KEY}'
